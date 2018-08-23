@@ -2,7 +2,7 @@
   "name": "ilemauricebooking-service",
   "version": "1.0.0",
   "description": "",
-  "main": "server.js",
+  "main": "src/server.js",
   "scripts": {
     "start": "node .",
     "deploy": "now && now alias"
@@ -11,6 +11,8 @@
   "license": "ISC",
   "dependencies": {
     "dotenv": "^6.0.0",
-    "express": "^4.16.3"
+    "express": "^4.16.3",
+    "mongodb-stitch": "^3.2.1",
+    "path": "^0.12.7"
   }
 }

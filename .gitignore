@@ -3,5 +3,5 @@ node_modules
 
 # Specific
 .env
-.env.deployment
-config
+.deployment.env
+src/environments
