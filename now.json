@@ -1,4 +1,4 @@
 {
   "alias": "ilemauricebooking-service",
-  "dotnet": ".env.deployment"
+  "dotenv": ".env.deployment"
 }
