@@ -1,0 +1,16 @@
+{
+  "name": "ilemauricebooking-service",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "node .",
+    "deploy": "now && now alias"
+  },
+  "author": "Nadeem Ramsing <nadeem.ramsing@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^6.0.0",
+    "express": "^4.16.3"
+  }
+}

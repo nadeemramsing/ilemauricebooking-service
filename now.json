@@ -1,0 +1,4 @@
+{
+  "alias": "ilemauricebooking-service",
+  "dotnet": ".env.deployment"
+}
