@@ -1,10 +1,6 @@
 require('dotenv').config();
 
-const {
-  BSON,
-  StitchClientFactory
-} = require('mongodb-stitch');
-
+const { StitchClientFactory, BSON } = require('mongodb-stitch');
 const ObjectId = BSON.ObjectId;
 
 // Local
