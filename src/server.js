@@ -2,7 +2,7 @@ require('dotenv').config();
 
 const
   express = require('express'),
-  db = require('./db'),
+  db = require('./mongodb-stitch-db'),
 
   app = express();
 
