@@ -9,6 +9,13 @@
       "request": "launch",
       "name": "Launch Program",
       "program": "${workspaceFolder}\\src\\server.js"
+    },
+    {
+      "type": "node",
+      "request": "launch",
+      "name": "Launch Program (Linux)",
+      "runtimeExecutable": "~/.nvm/versions/node/v8.11.4/bin/node",
+      "program": "${workspaceRoot}/src/server.js"
     }
   ]
 }
